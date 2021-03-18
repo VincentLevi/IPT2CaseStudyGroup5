@@ -1,5 +1,5 @@
 package ipt2casestudygroup5;
-public class EmployeesInformation1 {
+public class EmployeesInfo1 {
         public void getempinfoname() {
         System.out.println("Vincent Levi M. Olonan");
 }
