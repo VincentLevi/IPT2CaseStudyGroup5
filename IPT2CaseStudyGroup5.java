@@ -21,32 +21,50 @@ public class IPT2CaseStudyGroup5 {
         if(choice.equals("1")){
          Employ1.getempinfoname();
         }   
+                        if(choice.equals("2")){
+         Employ2.getempinfoname();
+        } 
 
         
         System.out.print("Position: ");
         if(choice.equals("1")){
          Employ1.getempinfoposi();
-        }   
+        }
+                        if(choice.equals("2")){
+         Employ2.getempinfoposi();
+        }
 
         System.out.print("Strenght: ");
         if(choice.equals("1")){
          Employ1.getempinfostre();
-        }  
+        }
+                        if(choice.equals("2")){
+         Employ2.getempinfostre();
+        }
 
         System.out.print("Weakness: ");
         if(choice.equals("1")){
          Employ1.getempinfoweak();
-        }  
+        }
+                        if(choice.equals("2")){
+         Employ2.getempinfoweak();
+        }
 
         System.out.print("Criminal Record: ");
         if(choice.equals("1")){
          Employ1.getempinfocriminalrec();
         }
+                        if(choice.equals("2")){
+         Employ2.getempinfocriminalrec();
+        }
 
         System.out.print("Performance in Previous Organization: ");
         if(choice.equals("1")){
          Employ1.getempinfoperprevorga();
-        }  
+        }
+                        if(choice.equals("2")){
+         Employ2.getempinfoperprevorga();
+        }
 
     }
 }
