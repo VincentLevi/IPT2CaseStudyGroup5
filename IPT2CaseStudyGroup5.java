@@ -23,7 +23,11 @@ public class IPT2CaseStudyGroup5 {
         }   
                         if(choice.equals("2")){
          Employ2.getempinfoname();
-        } 
+        }
+                                             if(choice.equals("3")){
+         Employ3.getempinfoname();
+        }
+                        
 
         
         System.out.print("Position: ");
@@ -33,6 +37,9 @@ public class IPT2CaseStudyGroup5 {
                         if(choice.equals("2")){
          Employ2.getempinfoposi();
         }
+                                            if(choice.equals("3")){
+         Employ3.getempinfoposi();
+        }
 
         System.out.print("Strenght: ");
         if(choice.equals("1")){
@@ -40,6 +47,9 @@ public class IPT2CaseStudyGroup5 {
         }
                         if(choice.equals("2")){
          Employ2.getempinfostre();
+        }
+                                            if(choice.equals("3")){
+         Employ3.getempinfostre();
         }
 
         System.out.print("Weakness: ");
@@ -49,6 +59,9 @@ public class IPT2CaseStudyGroup5 {
                         if(choice.equals("2")){
          Employ2.getempinfoweak();
         }
+                                            if(choice.equals("3")){
+         Employ3.getempinfoweak();
+        }
 
         System.out.print("Criminal Record: ");
         if(choice.equals("1")){
@@ -57,6 +70,9 @@ public class IPT2CaseStudyGroup5 {
                         if(choice.equals("2")){
          Employ2.getempinfocriminalrec();
         }
+                                            if(choice.equals("3")){
+         Employ3.getempinfocriminalrec();
+        }
 
         System.out.print("Performance in Previous Organization: ");
         if(choice.equals("1")){
@@ -64,6 +80,9 @@ public class IPT2CaseStudyGroup5 {
         }
                         if(choice.equals("2")){
          Employ2.getempinfoperprevorga();
+        }
+                                            if(choice.equals("3")){
+         Employ3.getempinfoperprevorga();
         }
 
     }
