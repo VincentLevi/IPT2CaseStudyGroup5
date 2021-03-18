@@ -33,6 +33,9 @@ public class IPT2CaseStudyGroup5 {
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfoname();
         } 
+                                                                                                                                if(choice.equals("6")){
+         Employ6.getempinfoname();
+        }
                         
 
         
@@ -52,6 +55,9 @@ public class IPT2CaseStudyGroup5 {
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfoposi();
         }
+                                                                                                                                        if(choice.equals("6")){
+         Employ6.getempinfoposi();
+        }
 
         System.out.print("Strenght: ");
         if(choice.equals("1")){
@@ -68,6 +74,9 @@ public class IPT2CaseStudyGroup5 {
         }
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfostre();
+        }
+                                                                                                                                                if(choice.equals("6")){
+         Employ6.getempinfostre();
         }
 
         System.out.print("Weakness: ");
@@ -86,6 +95,9 @@ public class IPT2CaseStudyGroup5 {
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfoweak();
         }
+                                                                                                                                        if(choice.equals("6")){
+         Employ6.getempinfoweak();
+        }
 
         System.out.print("Criminal Record: ");
         if(choice.equals("1")){
@@ -103,6 +115,9 @@ public class IPT2CaseStudyGroup5 {
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfocriminalrec();
         }
+                                                                                                                                        if(choice.equals("6")){
+         Employ6.getempinfocriminalrec();
+        }
 
         System.out.print("Performance in Previous Organization: ");
         if(choice.equals("1")){
@@ -119,6 +134,9 @@ public class IPT2CaseStudyGroup5 {
         }
                                                                                                 if(choice.equals("5")){
          Employ5.getempinfoperprevorga();
+        }
+                                                                                                                                    if(choice.equals("6")){
+         Employ6.getempinfoperprevorga();
         }
 
     }
