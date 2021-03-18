@@ -27,6 +27,9 @@ public class IPT2CaseStudyGroup5 {
                                              if(choice.equals("3")){
          Employ3.getempinfoname();
         }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfoname();
+        }
                         
 
         
@@ -40,6 +43,9 @@ public class IPT2CaseStudyGroup5 {
                                             if(choice.equals("3")){
          Employ3.getempinfoposi();
         }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfoposi();
+        }
 
         System.out.print("Strenght: ");
         if(choice.equals("1")){
@@ -50,6 +56,9 @@ public class IPT2CaseStudyGroup5 {
         }
                                             if(choice.equals("3")){
          Employ3.getempinfostre();
+        }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfostre();
         }
 
         System.out.print("Weakness: ");
@@ -62,6 +71,9 @@ public class IPT2CaseStudyGroup5 {
                                             if(choice.equals("3")){
          Employ3.getempinfoweak();
         }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfoweak();
+        }
 
         System.out.print("Criminal Record: ");
         if(choice.equals("1")){
@@ -73,6 +85,9 @@ public class IPT2CaseStudyGroup5 {
                                             if(choice.equals("3")){
          Employ3.getempinfocriminalrec();
         }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfocriminalrec();
+        }
 
         System.out.print("Performance in Previous Organization: ");
         if(choice.equals("1")){
@@ -83,6 +98,9 @@ public class IPT2CaseStudyGroup5 {
         }
                                             if(choice.equals("3")){
          Employ3.getempinfoperprevorga();
+        }
+                                                                    if(choice.equals("4")){
+         Employ4.getempinfoperprevorga();
         }
 
     }
