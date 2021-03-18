@@ -2,7 +2,12 @@ package ipt2casestudygroup5;
 import java.util.*;
 public class IPT2CaseStudyGroup5 {
     public static void main(String[] args) {
-        EmployeesInformation1 Employ1 = new EmployeesInformation1();
+        EmployeesInfo1 Employ1 = new EmployeesInfo1();
+        EmployeesInfo1 Employ2 = new EmployeesInfo2();
+        EmployeesInfo1 Employ3 = new EmployeesInfo3();
+        EmployeesInfo1 Employ4 = new EmployeesInfo4();
+        EmployeesInfo1 Employ5 = new EmployeesInfo5();
+        EmployeesInfo1 Employ6 = new EmployeesInfo6();
         System.out.println("<------------Employees Background------------>");
         System.out.println("Type 1 for the First Employee");
         System.out.println("Type 2 for the Second Employee");
@@ -17,7 +22,7 @@ public class IPT2CaseStudyGroup5 {
          Employ1.getempinfoname();
         } 
                 if(choice.equals("2")){
-         Employ1.getempinfoname();
+         Employ2.getempinfoname();
         }  
                 System.out.print("Position: ");
         if(choice.equals("1")){
@@ -31,27 +36,27 @@ public class IPT2CaseStudyGroup5 {
          Employ1.getempinfostre();
         }   
                 if(choice.equals("2")){
-         Employ1.getempinfostre();
+         Employ2.getempinfostre();
         }
                 System.out.print("Weakness: ");
         if(choice.equals("1")){
          Employ1.getempinfoweak();
         }   
                 if(choice.equals("2")){
-         Employ1.getempinfoweak();
+         Employ2.getempinfoweak();
         }
                 System.out.print("Criminal Record: ");
         if(choice.equals("1")){
          Employ1.getempinfocriminalrec();
         }   
                 if(choice.equals("2")){
-         Employ1.getempinfocriminalrec();
+         Employ2.getempinfocriminalrec();
         }                  System.out.print("Performance in Previous Organization: ");
         if(choice.equals("1")){
          Employ1.getempinfoperprevorga();
         }     
                 if(choice.equals("2")){
-         Employ1.getempinfoperprevorga();
+         Employ2.getempinfoperprevorga();
         } 
     }
 }
