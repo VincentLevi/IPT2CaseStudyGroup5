@@ -16,6 +16,6 @@ public class EmployeeInfo1 {
         System.out.println("None");
 }
         public void getempinfoperprevorga() {
-        System.out.println("Very well");
+        System.out.println("Great Employee");
 }
 }
