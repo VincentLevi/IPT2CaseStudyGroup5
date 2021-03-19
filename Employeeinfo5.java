@@ -18,4 +18,7 @@ public class EmployeeInfo5{
         public void getempinfoperprevorga() {
         System.out.println("Great");
 }
+	public void getempinfoaddress() {
+        System.out.println("Concepcion");
+}
 }
