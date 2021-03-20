@@ -1,7 +1,19 @@
 package ipt2casestudygroup5;
 public class EmployeeInfo5{
-        public void getempinfoname() {
-        System.out.println("Ana Luz A. Agnote");
+        public void getempinfoFirstname() {
+        System.out.println("Ana Luz");
+}
+	public void getempinfoLastname() {
+        System.out.println("Agnote");
+}
+	public void getempinfoMiddlename() {
+        System.out.println("Aguas");
+}
+	public void getempinfoage() {
+        System.out.println("22yrs.old");
+}
+	public void getempinfoaddress() {
+        System.out.println("Concepcion");
 }
         public void getempinfoposi() {
         System.out.println("Business analyst");
@@ -18,7 +30,5 @@ public class EmployeeInfo5{
         public void getempinfoperprevorga() {
         System.out.println("Great");
 }
-	public void getempinfoaddress() {
-        System.out.println("Concepcion");
-}
+
 }
