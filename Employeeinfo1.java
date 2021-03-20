@@ -3,6 +3,18 @@ public class EmployeeInfo1 {
         public void getempinfoname() {
         System.out.println("Vincent Levi M. Olonan");
 }
+	public void getempinfoLastname() {
+        System.out.println("Olonan");
+}
+	public void getempinfoMiddleinitial() {
+        System.out.println("M");
+}
+	public void getempinfoage() {
+        System.out.println("21yrs.old");
+}
+	public void getempinfoaddress() {
+        System.out.println("Tarlac");
+}
         public void getempinfoposi() {
         System.out.println("Chief Technology Officer (CTO)");
 }
