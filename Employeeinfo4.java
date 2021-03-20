@@ -1,7 +1,19 @@
 package ipt2casestudygroup5;
 public class EmployeeInfo4 {
         public void getempinfoname() {
-        System.out.println("Jeric G. Cruz");
+        System.out.println("Jeric");
+}
+	public void getempinfoLastname() {
+        System.out.println("Cruz");
+}
+	public void getempinfoMiddleinitial() {
+        System.out.println("G");
+}
+	public void getempinfoage() {
+        System.out.println("21yrs.old");
+}
+	public void getempinfoaddress() {
+        System.out.println("Tarlac");
 }
         public void getempinfoposi() {
         System.out.println("Marketing specialist");
