@@ -13,7 +13,7 @@ public class EmployeeInfo3 {
         System.out.println("21yrs.old");
 }
 	public void getempinfoaddress() {
-        System.out.println("Tarlac");
+        System.out.println("Cuyapo, Nueva Ecija");
 }
         public void getempinfoposi() {
         System.out.println("Executive assistants");
